@@ -50,6 +50,8 @@ body{
     font-size: xx-large;
     font-weight: 800;
 }
+
+
 .nav-bar .menu-icon > button{
     border: none;
     color: #4a30c5;
@@ -73,6 +75,11 @@ body{
     text-transform: uppercase;
 }
 
+.nav-bar ul li:hover{
+    background-color: #2c3e5015;
+    transition: 0.98s;
+}
+
 .nav-bar ul button{
     border: none;
     background-color: var(--bg-btn-color);
@@ -80,9 +87,15 @@ body{
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 14px;
+    font-weight: bold;
     letter-spacing: 1px;
     margin-left: 20px;
     cursor: pointer;
+}
+
+.nav-bar ul button:hover{
+    background-color: #281872;
+    transition: 0.98s;
 }
 
 header{
@@ -93,7 +106,6 @@ header{
     height: 550px;
     padding-top: 80px;
     position: relative;
-    z-index: -1;
 }
 
 header .slider{
@@ -450,6 +462,33 @@ footer ul{
     list-style: none;
 }
 
+#go-top {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 600;
+    display: none;
+}
+
+#go-top a {
+    text-decoration: none;
+    border: 0 none;
+    display: block;
+    height: 6.6rem;
+    width: 6rem;
+    line-height: 6.6rem;
+    text-align: center;
+    background: var(--bg-btn-nav-bar-color);
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
 
 /*ANIMAÇÃO*/
 .hidden{
@@ -475,6 +514,23 @@ footer ul{
 
 
 @media (max-width: 520px) {
+    
+    .nav-bar .logo {
+        font-size: large;
+    }
+    
+    header{
+        height: auto;
+        padding-top: 20px;
+    }
+    
+    .slide .content h2 {
+        font-size: large;
+    }
+    
+    .slide .content p {
+        font-size: 20px;
+    }
     .module-content .warehouse-card, .module-content .school-card, .module-content .service-card {
         width: 90% !important;
     }
@@ -554,7 +610,6 @@ footer ul{
 @media(max-width:920px) {
     .nav-bar .menu-icon{
         display: block;
-        padding: 20px;
         z-index: 9999;
     }
     .nav-bar ul{
@@ -570,6 +625,7 @@ footer ul{
         flex-direction: column;
         transition: 0.3s ease-in;
         background-color: var(--bg-nav-bar-color);
+        z-index: 1;
     }
 
     .nav-bar ul.active{
@@ -613,7 +669,7 @@ footer ul{
 }
 
 @media(max-width:1013px){
-.slide .image{
-    display: none;
-}
+    .slide .image{
+        display: none;
+    }
 }
