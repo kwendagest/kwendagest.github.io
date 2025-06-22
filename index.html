@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="pt-AO">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet" href="style.css">
+    <title>KWENDA GEST</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+           <div class="nav-bar">
+             <div class="logo">
+                KWENDA GEST</div>
+            <ul class="nav-links">
+                <li><a href="#">INICIO</a></li>
+                <li><a href="#">MÓDULOS</a></li>
+                <li><a href="#">SERVIÇOS</a></li>
+                <li><a href="#">PARCERIAS</a></li>
+                <li><a href="#">CONTACTOS</a></li>
+                <button>BAIXAR SOFTWARE</button>
+            </ul>
+            <div class="menu-icon">
+                <button class="menu-toggle">&#9776;</button>
+            </div>
+           </div>
+        </nav>
+
+        <main>
+            <header>
+                <div class="slider hidden">
+                    <div class="slide active">
+                        <div class="content">
+                            <h2>Software de gestão para empresas com futuro</h2>
+                            <p>Aumente as vendas, controle as despesas, monitorize as compras, inventário e armazéns. 
+                                Com o Kwenda Gest, trata de todas as questões comerciais de forma ágil.
+                            </p>
+                        </div>
+                        <div class="image">
+                            <div class="image-circle">
+                                <img src="jasmin.png" alt="Kwenda Gest Software">
+                            </div>
+                        </div>
+                    </div>
+                <!--
+                    <div class="slide">
+                <div class="hero-content">
+                    <h2>Gerencie sua empresa com eficiência</h2>
+                    <p>Automatize processos e melhore sua produtividade.</p>
+                </div>
+                <div class="hero-image">
+                    <div class="image-circle">
+                        <img src="jasmin.png" alt="Software Gestão">
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="hero-content">
+                    <h2>Controle total sobre suas finanças</h2>
+                    <p>Com relatórios detalhados e gestão simplificada.</p>
+                </div>
+                <div class="hero-image">
+                    <div class="image-circle">
+                        <img src="kwenda-gest3.png" alt="Financeiro">
+                    </div>
+                </div>
+            </div>
+-->
+                </div>
+
+                <div class="slider-controls hidden">
+                    <span class="dot active" onclick="changeSlide(0)"></span>
+                    <span class="dot" onclick="changeSlide(1)"></span>
+                    <span class="dot" onclick="changeSlide(2)"></span>
+                </div>
+            </header>
+
+            <!--About--> 
+            <section id="about" class="about hidden-right">
+            <div class="content">
+                <h2 class="section-title">KWENDA GEST</h2>
+                <div class="about-content">
+                    <div class="about-video">
+                        <iframe 
+                                src="https://www.youtube.com/embed/WyFk6MtsCOM?si=w4KTfdkobkCop1ca" 
+                                title="YouTube video player" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                referrerpolicy="strict-origin-when-cross-origin" 
+                                allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="description-about-kwendagest">
+                        <p>
+                        O <strong>Kwenda Gest</strong> é um software de facturação e gestão, 100% angolano e certificado pela AGT, com módulos de Gestão Comercial, Gestão de Serviços, Gestão Escolar e Gestão de Recursos Humanos.
+                        </p>
+                        <br>
+                        <p>
+                        O Kwenda Gest assegura o cumprimento dos requisitos legais e fiscais. As tabelas de impostos e os motivos de isenção já estão pré-configurados, e facilmente extrai a informação para reporte fiscal. Emita facilmente faturas e garanta a máxima eficiência na comunicação à AGT. Já está tudo preparado para que possa enviar informação de forma rápida e cómoda.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            </section>
+
+             <!--Module-->
+    <section id="module" class="module hidden">
+        <div class="content">
+            <h2 class="section-title">MÓDULOS</h2>
+            <div class="module-content">
+                <div class="warehouse-card">
+                    <div class="warehouse-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24">
+                            <path d="M21.822 7.431A1 1 0 0 0 21 7H7.333L6.179 4.23A1.994 1.994 0 0 0 4.333 3H2v2h2.333l4.744 11.385A1 1 0 0 0 10 17h8c.417 0 .79-.259.937-.648l3-8a1 1 0 0 0-.115-.921z"></path>
+                            <circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="17.5" cy="19.5" r="1.5"></circle>
+                        </svg>
+                    </div>
+                    <h3 class="section-title">GESTÃO COMERCIAL</h3>
+                    <div class="price">
+                        50.000<span class="small-text">Kz</span>
+                    </div>
+                    <ul>
+                        <li>Instalação do Software</li>
+                        <li>Activação de Licença Anual</li>
+                        <li>Formação de 2 Funcionários</li>
+                        <li>Actualizações Gratuitas</li>
+                        <li>Suporte Técnico Gratuito</li>
+                    </ul>
+                    <button class="pricing-btn">
+                        Adquirir Agora
+                    </button>
+                </div>
+                <div class="school-card active">
+                    <div class="warehouse-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24">
+                            <path d="M2 7v1l11 4 9-4V7L11 4z"></path>
+                            <path d="M4 11v4.267c0 1.621 4.001 3.893 9 3.734 4-.126 6.586-1.972 7-3.467.024-.089.037-.178.037-.268V11L13 14l-5-1.667v3.213l-1-.364V12l-3-1z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="section-title">GESTÃO ESCOLAR</h3>
+                    <div class="price">
+                        95.000 <span class="small-text"> Kz</span>
+                    </div>
+                    <ul>
+                        <li>Instalação do Software</li>
+                        <li>Activação de Licença Anual</li>
+                        <li>Formação de 5 Funcionários</li>
+                        <li>Actualizações Gratuitas</li>
+                        <li>Suporte Técnico Gratuito</li>
+                    </ul>
+                    <button class="pricing-btn">
+                        Adquirir Agora
+                    </button>
+                </div>
+                <div class="service-card">
+                    <div class="warehouse-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24">
+                            <path d="m2.344 15.271 2 3.46a1 1 0 0 0 1.366.365l1.396-.806c.58.457 1.221.832 1.895 1.112V21a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1.598a8.094 8.094 0 0 0 1.895-1.112l1.396.806c.477.275 1.091.11 1.366-.365l2-3.46a1.004 1.004 0 0 0-.365-1.366l-1.372-.793a7.683 7.683 0 0 0-.002-2.224l1.372-.793c.476-.275.641-.89.365-1.366l-2-3.46a1 1 0 0 0-1.366-.365l-1.396.806A8.034 8.034 0 0 0 15 4.598V3a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v1.598A8.094 8.094 0 0 0 7.105 5.71L5.71 4.904a.999.999 0 0 0-1.366.365l-2 3.46a1.004 1.004 0 0 0 .365 1.366l1.372.793a7.683 7.683 0 0 0 0 2.224l-1.372.793c-.476.275-.641.89-.365 1.366zM12 8c2.206 0 4 1.794 4 4s-1.794 4-4 4-4-1.794-4-4 1.794-4 4-4z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="section-title">GESTÃO DE SERVIÇOS</h3>
+                    <div class="price">
+                        75.000 <span class="small-text"> Kz</span>
+                    </div>
+                    <ul>
+                        <li>Instalação do Software</li>
+                        <li>Activação de Licença Anual</li>
+                        <li>Formação de 3 Funcionários</li>
+                        <li>Actualizações Gratuitas</li>
+                        <li>Suporte Técnico Gratuito</li>
+                    </ul>
+                    <button class="pricing-btn">
+                        Adquirir Agora
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="separator"></div>
+    </section>
+
+     <section class="info-1 hidden-right">
+        <div class="content">
+            <div class="description-content">
+                <h3>Tenha controlo da sua facturação, em tempo real.</h3>
+                <div>
+                    <p>O Kwenda Gest é um software de gestão desktop e cloud fácil de usar. A toda a hora e em qualquer lugar, poderá controlar os ciclos de compras 
+                        e vendas do seu negócio, cobrar mais rápidos aos seus clientes, acompanhar
+                        as contas correntes e otimizar a gestão de inventário e armazéns.</p>
+                </div>
+            </div>
+            <div class="img-content">
+                <img src="../Kwenda Gest/02.png" style="width: 400px;">
+            </div>
+        </div>
+    </section>
+
+         <section class="info-2 hidden">
+        <div class="content">
+            <div class="img-content">
+                <img src="../Kwenda Gest/03.png" style="width: 350px;">
+            </div>
+            <div class="description-content">
+                <h3>Total controlo dos seus pontos de vendas.</h3>
+                <div>
+                    <p>Acelere o seu processo de venda e faça a gestão dos vários pontos de vendas de forma centralizada e em tempo real.</p>
+                    <ul class="listItems">
+                        <li>Controlo de pontos de vendas, num só lugar</li>
+                        <li>Gestão de artigos e preços simplificada</li>
+                        <li>Facturação em POS online e offline</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="separator"></div>
+    </section>
+
+        <section class="banner hidden-right">
+        <div class="banner-content">
+            <div class="blue">SEJA PARCEIRO E REVENDA O KWENDA GEST</div>
+            <div class="cornflowerblue"></div>
+            <div class="green"></div>
+            <div class="red"></div>
+            <div class="cornflowerblue"></div>
+        </div>
+    </section>
+
+     <section class="info-2 hidden" style=" background-color: #f0f0f0d5;">
+        <div class="content">
+            <div class="img-content">
+                <img src="../Kwenda Gest/05.png" style="width: 350px;">
+            </div>
+            <div class="description-content">
+                <h3>Não temos complicação você define o quanto vai ganhar.</h3>
+                <div>
+                    <p>
+                        Muita gente já começou sua própria empresa vendendo Kwenda Gest e não olha para  atrás. 
+                        Se você está procurando uma forma de empreender com um produto que realmente vende, chegou no lugar certo.
+                    </p>
+                </div>
+                <div class="partner">
+                    <button class="pricing-btn" style="background-color: #4a30c5; color: #fff;">
+                        Seja Parceiro
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="separator"></div>
+    </section>
+
+
+      <footer>
+        <br><br>
+        <div class="content hidden-right">
+            <div class="about-soft">
+                <h1>KWENDA GEST</h1>
+                <div class="description-content">
+                    <p>O Kwenda Gest é um software facturação e gestão angolano certificado pela AGT, 
+                        desenvolvido pela D.H SOLUÇÕES TECNOLÓGICAS, LDA uma empresa que desenvolve vários
+                        softwares e soluções tecnológicas.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="soft-functions">
+                <h2>Software</h2>
+                <div class="description-content">
+                    <ul>
+                        <li>Facturação</li>
+                        <li>Despesas</li>
+                        <li>inventário</li>
+                        <li>Tesouraria</li>
+                        <li>Pagamentos</li>
+                        <li>Pontos de Vendas</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="contact">
+                <h2>Contacta-nos</h2>
+                <div style="padding-top: 20px;">
+                    <h3>+244 929 709 315</h3>
+                    <h3>+244 956 755 059</h3>
+                    <h5>kwendagest@gmail.com</h5>
+                </div>
+            </div> 
+        </div>
+        <hr style="padding: 0 auto;">
+        <div class="copy-content hidden" style="display: flex; justify-content: center;padding-top: 20px;">
+            <p>&copy; 2025 Kwenda Gest - Todos os direitos reservados</p>
+        </div>
+    </footer>
+
+        </main>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
