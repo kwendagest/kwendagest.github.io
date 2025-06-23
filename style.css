@@ -45,6 +45,10 @@ body{
     display: none;
 }
 
+.nav-bar .menu-icon i{
+    color: var(--bg-btn-nav-bar-color);
+}
+
 .nav-bar .logo {
     color: var(--bg-btn-color);
     font-size: xx-large;
