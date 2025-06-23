@@ -458,6 +458,12 @@ footer .about-soft > h1{
    margin: 0 10px 10px 0;
 }
 
+footer .soft-functions > h2,footer .contact > h2{
+   font-size: large;
+   font-weight: 900;
+   text-transform: uppercase;
+}
+
 footer .description-content{
     width: 100% !important;
 }
@@ -466,12 +472,34 @@ footer ul{
     list-style: none;
 }
 
+footer .contact ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    gap: 20px;
+}
+
+footer .contact ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
 #go-top {
     position: fixed;
     bottom: 0;
     right: 0;
     z-index: 600;
     display: none;
+}
+
+#go-top.show {
+    display: block;
+    transition: 2s;
 }
 
 #go-top a {

@@ -20,8 +20,7 @@ menuBar.addEventListener('click', function(){
 let slideIndex = 0;
 const slides = document.querySelectorAll(".slide");
 const dots = document.querySelectorAll(".dot");
-
-
+const array = document.getElementById('go-top');
 const myObs = new IntersectionObserver((entries)=>{
     entries.forEach((entry)=>{
         if(entry.isIntersecting){
