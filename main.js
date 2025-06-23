@@ -1,9 +1,18 @@
 var menu=document.querySelector('nav ul');
 var menuBar = document.querySelector('nav .menu-icon')
-var iconMenu = document.querySelector('nav .menu-icon button');
+var icon = document.querySelector('nav .menu-icon i');
 
 menuBar.addEventListener('click', function(){
-    menu.classList.add('active');
+    if (menu.classList.contains('active')) {
+        menu.classList.remove('active');
+
+        icon.classList.remove('fa', 'fa-times-circle-o');
+        icon.classList.add('fa', 'fa-bars');
+    } else {
+        icon.classList.remove('fa', 'fa-bars');
+        icon.classList.add('fa', 'fa-times-circle-o');
+        menu.classList.add('active');
+    }
 });
 
 
