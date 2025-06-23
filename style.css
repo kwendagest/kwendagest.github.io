@@ -474,9 +474,9 @@ footer ul{
     text-decoration: none;
     border: 0 none;
     display: block;
-    height: 4rem;
+    height: 3rem;
     width: 3rem;
-    line-height: 4rem;
+    line-height: 3rem;
     text-align: center;
     background: var(--bg-btn-nav-bar-color);
     color: #FFFFFF;
